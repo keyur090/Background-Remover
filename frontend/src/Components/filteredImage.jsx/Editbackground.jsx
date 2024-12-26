@@ -407,7 +407,7 @@ function EditBackground() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/remove-background",
+        "https://26wc47-5000.csb.app/remove-background",
         formData,
         { responseType: "blob" }
       );
